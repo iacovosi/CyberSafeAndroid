@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity
         if (id == cy.cybersafety.cybersafe.R.id.home) {
             fragment = new HomeFragment();
         } else if (id == cy.cybersafety.cybersafe.R.id.helpline) {
-            bundle.putString("url", "https://hotline.pi.ac.cy/helpline/en/form");
+            bundle.putString("url", "https://reports.cybersafety.cy/helpline/gr/form");
             fragment = new WebViewFragment();
             fragment.setArguments(bundle);
         } else if (id == cy.cybersafety.cybersafe.R.id.hotline) {
-            bundle.putString("url", "https://hotline.pi.ac.cy/hotline/en/form");
+            bundle.putString("url", "https://reports.cybersafety.cy/hotline/gr/form");
             fragment = new WebViewFragment();
             fragment.setArguments(bundle);
         }
